@@ -1,0 +1,184 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+.main{
+  width:100vm;
+  height:100vh;
+  background:linear-gradient(to top,rgb(0,0,0,0.5)50%,rgb(0,0,0,0.5)50%),url("image/IMG_20230517_185946_187.jpg");
+  background-size:cover;
+  background-position:top;
+  margin: auto;
+}
+.navbar{
+  width: 100vm;
+  height: 75px;
+}
+.icon{
+  width: 200px;
+  height: 75px;
+  float: left;
+}
+#logo{
+  color: yellow;
+  padding:20px 0px 0px 20px;
+  font-size: 25px;
+  font: solid 25px arial;
+  float: left;
+  animation-name: logo;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes logo{
+  0%{color: yellow;}
+  25%{color:rgb(238, 110, 110);}
+  50%{color: aqua;}
+  75%{color: chartreuse;}
+  100%{color: yellow;}
+}
+.menu{
+  float: left; 
+  width:700px;
+  height: 75px;
+}
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+ul li{
+  list-style: none;
+  margin-top: 30px;
+  margin-left:63px;
+}
+ul li a{
+  font: bold 18px arial;
+  color: #fff;
+  transition: 0.4s,ease-in-out;
+}
+ul li a:hover{
+  color: yellow;
+}
+.search1{
+  width: 400px;
+  height: 75px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#srchin{
+  float: left;
+  width: 250px;
+  height: 36px;
+  font:19px solid arial;
+  line-height: 19px;
+  border: 2px solid yellow;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-right: none;
+}
+#btn{
+  float: left;
+  width: 100px;
+  height: 36px;
+  border:2px solid yellow;
+  border-left: none;
+  font: 19px solid arial;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px ;
+}
+#btn:focus{
+  outline: none;
+}
+#srchin:focus{
+  outline: non  e;
+}
+.content{
+  color: white;
+  position: relative;
+  width: 1400px;
+  height: auto;
+}
+span{
+  color: yellow;
+}
+.content h1{
+  font:40px solid black;
+  letter-spacing:2px;
+  margin-top:20px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  padding-top: 90px;
+}
+#p1{
+  font: 20px solid arial;
+  letter-spacing: .5px;
+  margin: 10px 0px 0px 30px;
+}
+#b1{
+  background-color: rgb(90, 181, 74);
+  width: 70px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin:10px 0px 20px 30px;
+  font:20px bold arial;
+  color: white;
+}
+#b1 a:hover{
+  color: yellow;
+}
+#b1 a{
+  font:17px bold arial; 
+}
+form{
+  position: absolute;
+  width: 355px;
+  height:500px;
+  background:linear-gradient(to top,rgb(0,0,0,0.8)50%,rgb(0,0,0,0.8));
+  border-radius: 25px;
+  box-shadow: 4px 4px 6px 0px lightyellow;
+  top: 10px;
+  left: 925px;
+}
+form h1{
+  text-align: center;
+  font: 25px solid arial;
+  color: white;
+  margin-top:25px;
+  margin-bottom: 25px;
+}
+form input{
+ width: 250px;
+ height: 40px;
+ line-height: 20px;
+ border: none;
+ outline: none;
+ border-bottom: 2px solid yellow;
+ margin: 30px 50px 30px 50px;
+ background-color: transparent;
+ color: white;
+ font: 20px solid arial; 
+}
+form button{
+  width: 70px;
+  height: 30px;
+  margin: 10px 140px 10px 140px;
+  background-color: rgb(25, 163, 209);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font: 12px solid arial;
+  color: color;
+}
+form a{
+  color: white;
+  margin:20px 115px 20px 115px;
+}
+form p{
+  color:aqua;
+  margin: 20px 50px 10px 50px;
+}
